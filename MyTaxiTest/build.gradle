@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+    
+    testCompile 'junit:junit:4.12'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.+'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '2.+'
+    testCompile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.+'
+    testCompile group: 'ch.qos.logback', name: 'logback-core', version: '1.0.+'
+    testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.0.+'
+}
+
+task testSuite(type: Test) {
+   include 'TestSuite.java'  
+}

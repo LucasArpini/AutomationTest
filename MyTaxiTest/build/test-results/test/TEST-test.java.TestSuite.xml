@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.TestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-09-29T07:29:18" hostname="LUCASDESKTOP" time="49.154">
+  <properties/>
+  <testcase name="addItemToCart" classname="test.java.TestSuite" time="49.154"/>
+  <system-out><![CDATA[04:29:29.695 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Application accessed using URL [https://www.zalando.es/]
+04:29:37.786 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Accessing Ropa Menu
+04:29:40.425 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Accessing Item [0] from item list
+04:29:43.818 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Selecting size for Item
+04:29:48.560 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Adding Item to cart
+04:29:53.214 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Accessing Ropa Menu
+04:29:56.296 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Accessing Item [1] from item list
+04:29:58.017 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Selecting size for Item
+04:30:02.110 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Adding Item to cart
+04:30:03.664 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Checking cart item count
+04:30:05.758 [Test worker] INFO  t.j.a.workflow.AddToCartWorkflow - Test Case addItemToCart completed successfully
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 45835
+Only local connections are allowed.
+]]></system-err>
+</testsuite>
